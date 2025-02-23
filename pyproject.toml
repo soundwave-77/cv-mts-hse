@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "cv-course"
+version = "0.1.0"
+description = ""
+authors = ["Vladislav <ve.kirienko7@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+matplotlib = "^3.10.0"
+pillow = "^11.1.0"
+opencv-python = "^4.11.0.86"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
